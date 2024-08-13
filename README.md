@@ -117,7 +117,7 @@ python train_gcn.py --data_path "cora"  --device 'cuda' --layers 2 --hidden_dim 
 
 ## ✨实验结果
 
-**半监督（ACC）**
+**半监督（ACC %）**
 
 | method    | Citeseer |       | Cora |       | Pubmed |       |
 | --------- | -------- | ----- | ---- | ----- | ------ | ----- |
@@ -136,7 +136,7 @@ python train_gcn.py --data_path "cora"  --device 'cuda' --layers 2 --hidden_dim 
 >
 > 注意，GAT原始使用的数据集和本项目的数据集不一致，这也是结果和论文有差别的原因之一。
 
-**监督学习，数据按(6:2:2) 划分**
+**监督学习，数据按(6:2:2) 划分，（ACC %）**
 
 | method    | Citeseer |                                                                | Cora  |       | Pubmed |       |
 | --------- | -------- | -------------------------------------------------------------- | ----- | ----- | ------ | ----- |
@@ -161,7 +161,7 @@ python train_gcn.py --data_path "cora"  --device 'cuda' --layers 2 --hidden_dim 
 | GAT       | [链接](docs/gat.md)       |
 | GraphSAGE | [链接](docs/graphsage.md) |
 
-监督学习gcn `cora` 数据集的散点图和曲线图结果（acc=88.75）
+监督学习gcn `cora` 数据集的散点图和曲线图结果（acc=88.75%）
 
 ![embedding](./assets/embedding.png)
 
