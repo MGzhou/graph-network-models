@@ -1,11 +1,6 @@
-
-
-
-
 <p align="center">
 <h1 align="center">graph-network-models</h1>
 </p>
-
 
 本项目实现了多种图嵌入与图神经网络模型，其中包括 DeepWalk、Node2Vec、GCN、GraphSAGE 以及 GAT。图嵌入模型的实现借助了gensim库，而图神经网络模型的实现则完全依赖于Pytorch框架。
 
@@ -84,7 +79,7 @@ python train_gcn.py
                         权重衰减. (default: 0.0005)
   --layers LAYERS       GCN 卷积层数. (default: 2)
   --hidden_dim HIDDEN_DIM
-                        隐藏层嵌入维度, 数量是层数减一, 最后一层自动根据数据标签获取. (default: 64)
+                        隐藏层嵌入维度. (default: 64)
 ...
 ```
 

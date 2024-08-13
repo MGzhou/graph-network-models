@@ -32,7 +32,7 @@ parser.add_argument('--lr', type=float, default=0.1, help='学习率.')
 parser.add_argument('--weight_decay', type=float, default=5e-4, help='权重衰减.')
 # 模型参数
 parser.add_argument('--layers', type=int, default=2, help='GCN 卷积层数.')
-parser.add_argument('--hidden_dim', type=int, default=64, help='隐藏层嵌入维度, 数量是层数减一, 最后一层自动根据数据标签获取.')
+parser.add_argument('--hidden_dim', type=int, default=64, help='隐藏层嵌入维度.')
 
 parser.add_argument('--patience', type=int, default=50, help='早停轮数.')
 parser.add_argument('--test_model', type=str, default='best', help='测试使用的模型[best or last], best是验证集最佳模型, last为最后一个epoch模型.')
