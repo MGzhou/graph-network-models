@@ -41,3 +41,4 @@ pubmed，Test accuarcy: 0.8651
 ```
 python train_gcn.py --data_path "pubmed"  --device 'cuda' --layers 2 --hidden_dim 32 --test_model 'best'  --use_semi_supervised 'False'
 ```
+

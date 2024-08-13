@@ -166,6 +166,12 @@ python train_gcn.py --data_path "cora"  --device 'cuda' --layers 2 --hidden_dim 
 | GAT       | [链接](docs/gat.md)       |
 | GraphSAGE | [链接](docs/graphsage.md) |
 
+监督学习gcn `cora` 数据集的散点图和曲线图结果（acc=88.75）
+
+![embedding](./assets/embedding.png)
+
+![loss_acc](./assets/loss_acc.png)
+
 ## 🔮 自定义数据集
 
 DeepWalk、Node2Vec、GCN、GAT 模型数据集格式参考：[tools/build_dataset1.py](tools/build_dataset1.py)

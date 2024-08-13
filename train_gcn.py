@@ -70,10 +70,6 @@ if __name__ == '__main__':
             diagnose=True)
     logger.add(log_file, level="INFO", format="{time} | {message}")
 
-    if config["is_draw"] == "True":
-        config['is_draw'] = True
-    else:
-        config['is_draw'] = False
     # 配置变量添加日志路径
     if config['save_path'] is None:
         config['save_path'] = log_path
@@ -82,7 +78,7 @@ if __name__ == '__main__':
     print(config)
 
     t1 = time.time()
-
+    # 开始训练
     trainer(config=config, logger_info=logger.info)
     logger.info('\n训练耗时: {}\n'.format(format_seconds(time.time() - t1)))
 

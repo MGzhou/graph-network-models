@@ -45,3 +45,10 @@ pubmed，Test accuarcy: 0.7480
 ```
 python train_graphsage.py --data_path "pubmed"  --device 'cuda' --batch_size 64 --hidden_dim 64 --k 2 --num_sample 8 --dropout 0.6 --agg "mean" --concat "False" --activation "True" --bias "False" --test_model "best" --use_semi_supervised "True"
 ```
+
+
+
+
+
+### 散点图
+
