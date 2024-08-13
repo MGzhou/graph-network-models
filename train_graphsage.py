@@ -29,7 +29,7 @@ parser.add_argument('--data_path', type=str, default="cora", help='数据集路�
 parser.add_argument('--device', type=str, default='cpu', help='默认使用GPU进行训练, cuda or cpu or cuda:0 ...')
 parser.add_argument('--seed', type=int, default=72, help='随机种子.')
 parser.add_argument('--epochs', type=int, default=200, help='训练轮数.')
-parser.add_argument('--batch_size', type=int, default=64, help='训练轮数.')
+parser.add_argument('--batch_size', type=int, default=64, help='训练批次.')
 parser.add_argument('--lr', type=float, default=0.005, help='学习率.')
 parser.add_argument('--weight_decay', type=float, default=5e-4, help='权重衰减.')
 # 模型参数

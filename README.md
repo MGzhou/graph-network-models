@@ -1,4 +1,11 @@
-# gnn-models
+
+
+
+
+<p align="center">
+<h1 align="center">graph-network-models</h1>
+</p>
+
 
 本项目实现了多种图嵌入与图神经网络模型，其中包括 DeepWalk、Node2Vec、GCN、GraphSAGE 以及 GAT。图嵌入模型的实现借助了gensim库，而图神经网络模型的实现则完全依赖于Pytorch框架。
 
